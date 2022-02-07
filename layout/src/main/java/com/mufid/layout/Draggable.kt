@@ -56,16 +56,16 @@ class Draggable(context: Context, attrs: AttributeSet) :
                     if(shouldSnap) {
                         if (event.rawX >= xMiddle) {
                             v.animate().x(xMax.toFloat())
-                                .setDuration(Draggable.DURATION_MILLIS)
+                                .setDuration(DURATION_MILLIS)
                                 .setUpdateListener { draggableListener?.onDraggablePositionChanged(v) }
                                 .start()
                         } else {
-                            v.animate().x(0F).setDuration(Draggable.DURATION_MILLIS)
+                            v.animate().x(0F).setDuration(DURATION_MILLIS)
                                 .setUpdateListener { draggableListener?.onDraggablePositionChanged(v) }
                                 .start()
                         }
                     }
-                    if (abs(v.x - widgetInitialX) <= Draggable.DRAG_TOLERANCE && abs(v.y - widgetInitialY) <= Draggable.DRAG_TOLERANCE) {
+                    if (abs(v.x - widgetInitialX) <= DRAG_TOLERANCE && abs(v.y - widgetInitialY) <= DRAG_TOLERANCE) {
                         performClick()
                     } else draggableListener?.xDraggableAxisChanged(event.rawX >= xMiddle)
                 }
