@@ -1,4 +1,4 @@
-package com.mufid.lib
+package com.mufid.layout
 
 import android.content.Context
 import android.util.AttributeSet
