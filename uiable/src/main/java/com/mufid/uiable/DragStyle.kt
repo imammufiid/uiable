@@ -1,4 +1,4 @@
-package com.mufid.layout
+package com.mufid.uiable
 
 enum class DragStyle(val id: Int) {
     COLLISION(0), STICKY_X(1), STICKY_Y(2), STICKY_XY(3);
