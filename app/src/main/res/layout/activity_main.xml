@@ -10,12 +10,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:draggable_style="stickyX">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher_round"/>
+            android:src="@mipmap/ic_launcher_round"
+            android:contentDescription="@string/app_name"/>
     </com.mufid.layout.Draggable>
 
     <TextView
