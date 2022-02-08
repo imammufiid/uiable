@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.republika.co.id%2Fberita%2Fq8q85u4424000%2Ffoto-jisoo-blackpink-hilang-di-situs-yg-entertainment&psig=AOvVaw30q0GcMoCbluFCigAVtXJv&ust=1644364733725000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiDs5Xm7vUCFQAAAAAdAAAAABAD"/>
+  <img src="https://static.republika.co.id/uploads/images/inpicture_slide/098502100-1586781138-5cb5913f6bc07-jisoo-blackpink_.jpg"/>
 </p>
 
 <p align="center">
