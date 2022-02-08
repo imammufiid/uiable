@@ -14,26 +14,43 @@
   <p align="center">Android layout UIable.
 </p>
 
-
-## Documentation libraries
-Check docs on wiki https://github.com/imufiid/uiable <br>
-Sample https://github.com/imufiid/samples
-
-## Artifact libraries
-- [UI Draggable](https://github.com/imufiid/uiable)
-- [UI Zoomable]()
+## Features
+- [x] UI Draggable
+    - stickyX
+    - stickyY
+    - stickyXY
+    - collision (default)
+- [ ] UI Zoomable (soon)
 
 ## Screenshot
 
-## Prerequisite
+## Example code
+```xml
+    <com.mufid.uiable.Draggable
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:draggable_style="stickyX">
 
+        ...
+    </com.mufid.uiable.Draggable>
+```
 
 ### All dependencies
 ```groovy
-ext.uiable_version = "1.0.0"
+// build.gradle(project)
+ext.uiable_version = "0.1.0"
+...
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
 
-// location
-implementation "io.github.imufiid:uiable:$uiable_version"
+// build.gradle(app)
+implementation "com.github.imufiid:uiable:$uiable_version"
 
 ```
 
