@@ -43,10 +43,10 @@
 ext.uiable_version = "0.1.0"
 ...
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
 
 // build.gradle(app)
