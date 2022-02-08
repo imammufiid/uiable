@@ -26,15 +26,15 @@
 
 ## Example code
 ```xml
-    <com.mufid.uiable.Draggable
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:draggable_style="stickyX">
+<com.mufid.uiable.Draggable
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:draggable_style="stickyX">
 
-        ...
-    </com.mufid.uiable.Draggable>
+    ...
+</com.mufid.uiable.Draggable>
 ```
 
 ### All dependencies
