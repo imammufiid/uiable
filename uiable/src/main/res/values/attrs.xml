@@ -6,10 +6,7 @@
         <enum name="stickyY" value="2" />
         <enum name="stickyXY" value="3"/>
     </attr>
-    <attr format="boolean" name="clickable_support"/>
-
     <declare-styleable name="Draggable">
         <attr name="draggable_style"/>
-        <attr name="clickable_support"/>
     </declare-styleable>
 </resources>

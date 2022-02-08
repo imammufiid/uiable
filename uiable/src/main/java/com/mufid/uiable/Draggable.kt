@@ -19,7 +19,6 @@ class Draggable(context: Context, private val attrs: AttributeSet) :
     private var widgetDX: Float = 0F
     private var widgetInitialY: Float = 0F
     private var widgetDY: Float = 0F
-    var shouldSnap:Boolean = false
     var dragStyle: DragStyle? = null
 
     init {
@@ -29,7 +28,6 @@ class Draggable(context: Context, private val attrs: AttributeSet) :
     @SuppressLint("Recycle")
     private fun draggableSetup() {
         val style = context.obtainStyledAttributes(attrs, R.styleable.Draggable)
-        shouldSnap = style.getBoolean(R.styleable.Draggable_clickable_support, false)
         val draggableStyle = style.getString(R.styleable.Draggable_draggable_style)
         dragStyle = DragStyle.getById(draggableStyle?.toInt() ?: 0)
 
