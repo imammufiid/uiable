@@ -24,6 +24,16 @@
 - [ ] UI Zoomable (soon)
 
 ## Screenshot
+---
+|![](https://i.ibb.co/hHQ26wB/Collision.gif)|![](https://i.ibb.co/g73KyH8/Sicky-X.gif)|![](https://i.ibb.co/342VPZv/Sticky-Y.gif)|
+|--|--|--|
+|Draggable Collision|Draggable Sticky-X|Draggable Sticky-Y|
+
+---
+|![](https://i.ibb.co/THf59P7/Sticky-XY.gif)|![](https://i.ibb.co/4sN3jcq/ezgif-4-c2339e83fe.gif)|
+|--|--|
+|Draggable Sticky-XY|GBoardEditText|
+---
 
 ## Example code
 ### Draggable
