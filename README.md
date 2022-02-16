@@ -20,11 +20,13 @@
     - stickyY
     - stickyXY
     - collision (default)
+- [x] GboardEditText
 - [ ] UI Zoomable (soon)
 
 ## Screenshot
 
 ## Example code
+### Draggable
 ```xml
 <com.mufid.uiable.Draggable
     android:layout_width="wrap_content"
@@ -36,11 +38,20 @@
     ...
 </com.mufid.uiable.Draggable>
 ```
+### GboardEditText
+```xml
+<com.mufid.uiable.GBoardEditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent" 
+    android:hint="Enter your message"/>
+```
 
 ### All dependencies
 ```groovy
 // build.gradle(project)
-ext.uiable_version = "0.1.0"
+ext.uiable_version = "0.2.0"
 ...
 allprojects {
     repositories {
