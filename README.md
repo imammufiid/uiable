@@ -47,6 +47,25 @@
     app:layout_constraintStart_toStartOf="parent" 
     android:hint="Enter your message"/>
 ```
+```kotlin
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        ...
+        val editText = findViewById<GBoardEditText>(R.id.edit_text)
+
+        editText.setKeyBoardInputCallbackListener(object : GBoardEditText.KeyBoardInputCallbackListener {
+            override fun onCommitContent(
+                inputContentInfo: InputContentInfoCompat?,
+                flags: Int,
+                opts: Bundle?
+            ) {
+                // get content uri 
+                val contentUri = inputContentInfo?.contentUri
+            }
+        })
+    }
+}
+```
 
 ### All dependencies
 ```groovy
