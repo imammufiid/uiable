@@ -4,10 +4,6 @@ import android.content.Context
 import android.os.Build
 import android.os.Bundle
 import android.util.AttributeSet
-import android.util.Log
-import android.view.ContentInfo
-import android.view.OnReceiveContentListener
-import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputConnection
 import androidx.appcompat.widget.AppCompatEditText
